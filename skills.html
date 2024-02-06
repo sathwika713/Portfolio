@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>skills</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f0f0f0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 25px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: cadetblue;
+        font-size: 1.05rem;
+      }
+      .skills-section {
+        background-color: #fff;
+        padding: 50px;
+        margin: auto;
+        width: 30%;
+        min-height: 50vh;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .skills-title {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .skills-list {
+        list-style: none;
+        padding: 40px;
+        margin-left: 130px;
+      }
+
+      .skills-item {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 10px;
+      }
+
+      .skills-item::before {
+        content: "•";
+        color: #0074d9;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+      .profile-image {
+        max-width: 45%;
+        display: block;
+        border-radius: 25%;
+        margin-left: 50%;
+        margin-right: 50%;
+        margin-top: -200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sathwika's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="skills-section">
+      <h2 class="skills-title">Skills</h2>
+      <ul class="skills-list">
+        <li class="skills-item">HTML5</li>
+        <li class="skills-item">CSS3</li>
+        <li class="skills-item">JavaScript</li>
+        <li class="skills-item">C</li>
+        <li class="skills-item">Python</li>
+        <li class="skills-item">Java</li>
+        <li class="skills-item">DBMS</li>
+      </ul>
+    </div>
+  </body>
+</html>
